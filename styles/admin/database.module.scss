@@ -1,0 +1,18 @@
+.database {
+    min-height: 10vh;
+    margin-top: 5vh;
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__text {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    &__button {
+        padding: 25px;
+        font-size: 20px;
+    }
+}

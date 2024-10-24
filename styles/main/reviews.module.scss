@@ -1,0 +1,11 @@
+.reviews {
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    &__wrap {
+        display: flex;
+        gap: 30px;
+    }
+}

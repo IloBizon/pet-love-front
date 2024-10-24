@@ -1,0 +1,22 @@
+
+.modal {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    &__wrap {
+        width: 900px;
+        background-color: #0F152C;
+        border-radius: 50px;
+        color: white;
+    }
+    &__children {
+        max-width: 70%;
+        margin: 5% auto;
+    }
+}

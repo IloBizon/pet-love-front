@@ -1,0 +1,18 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 15px 30px;
+    gap: 20px;
+    width: 25%;
+    border-radius: 24px;
+    
+    &__stars {
+        display: flex;
+        gap: 5px;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 30px;
+    }
+}

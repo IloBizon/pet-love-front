@@ -1,0 +1,21 @@
+.header {
+    background-color: white;
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+    &__logo {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    &__buttons {
+        display: flex;
+        gap: 20px;
+    }
+    &__button {
+        font-size: 30px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,33 @@
+.bids {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__wrap {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+.value {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    &__wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+}
