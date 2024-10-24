@@ -5,3 +5,5 @@ nodeJS 20
 npm i
 
 npm run dev
+
+Админка на /admin
